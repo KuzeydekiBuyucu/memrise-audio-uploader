@@ -60,7 +60,7 @@ class MemriseCourse {
                 }
             };
 
-            xhr.open('POST', 'https://www.memrise.com/ajax/thing/cell/upload_file/');
+            xhr.open('POST', 'https://www.decks.memrise.com/ajax/thing/cell/upload_file/');
             xhr.processData = false;
             xhr.send(data);
         });
